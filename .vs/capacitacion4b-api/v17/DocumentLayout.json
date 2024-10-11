@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\UTS-Capacitacion\\capacitacion4b-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD85D09E-6F36-4E64-A49C-4676D43E4AEF}|capacitacion4b-api.DTOs\\capacitacion4b-api.DTOs.csproj|c:\\uts-capacitacion\\capacitacion4b-api\\capacitacion4b-api.dtos\\user\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD85D09E-6F36-4E64-A49C-4676D43E4AEF}|capacitacion4b-api.DTOs\\capacitacion4b-api.DTOs.csproj|solutionrelative:capacitacion4b-api.dtos\\user\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD85D09E-6F36-4E64-A49C-4676D43E4AEF}|capacitacion4b-api.DTOs\\capacitacion4b-api.DTOs.csproj|c:\\uts-capacitacion\\capacitacion4b-api\\capacitacion4b-api.dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD85D09E-6F36-4E64-A49C-4676D43E4AEF}|capacitacion4b-api.DTOs\\capacitacion4b-api.DTOs.csproj|solutionrelative:capacitacion4b-api.dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7C1798-B3A9-4F61-8B1D-A1A2D893C5FC}|capacitacion4b-api\\capacitacion4b-api.csproj|c:\\uts-capacitacion\\capacitacion4b-api\\capacitacion4b-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7C1798-B3A9-4F61-8B1D-A1A2D893C5FC}|capacitacion4b-api\\capacitacion4b-api.csproj|solutionrelative:capacitacion4b-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api\\Program.cs",
+              "RelativeDocumentMoniker": "capacitacion4b-api\\Program.cs",
+              "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api\\Program.cs",
+              "RelativeToolTip": "capacitacion4b-api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T20:46:32.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "updateUser.cs",
+              "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.DTOs\\user\\updateUser.cs",
+              "RelativeDocumentMoniker": "capacitacion4b-api.DTOs\\user\\updateUser.cs",
+              "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.DTOs\\user\\updateUser.cs",
+              "RelativeToolTip": "capacitacion4b-api.DTOs\\user\\updateUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T20:42:55.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "createUserDto.cs",
+              "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.DTOs\\user\\createUserDto.cs",
+              "RelativeDocumentMoniker": "capacitacion4b-api.DTOs\\user\\createUserDto.cs",
+              "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.DTOs\\user\\createUserDto.cs",
+              "RelativeToolTip": "capacitacion4b-api.DTOs\\user\\createUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T20:40:14.571Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

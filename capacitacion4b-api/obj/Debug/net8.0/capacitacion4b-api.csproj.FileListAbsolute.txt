@@ -1,0 +1,6 @@
+C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\obj\Debug\net8.0\capacitacion4b-api.csproj.AssemblyReference.cache
+C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\obj\Debug\net8.0\capacitacion4b-api.GeneratedMSBuildEditorConfig.editorconfig
+C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\obj\Debug\net8.0\capacitacion4b-api.AssemblyInfoInputs.cache
+C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\obj\Debug\net8.0\capacitacion4b-api.AssemblyInfo.cs
+C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\obj\Debug\net8.0\capacitacion4b-api.csproj.CoreCompileInputs.cache
+C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\obj\Debug\net8.0\capacitacion4b-api.MvcApplicationPartsAssemblyInfo.cache
