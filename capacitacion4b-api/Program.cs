@@ -1,4 +1,6 @@
 using capacitacion4b_api.Data;
+using capacitacion4b_api.Data.interfaces;
+using capacitacion4b_api.Data.services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,8 @@ builder.Services.AddSwaggerGen();
 postgresqlConection postgresqlConection = new (Environment.GetEnvironmentVariable ("CONNECTION_STRING"));
 builder.Services.AddSingleton(postgresqlConection);
 
+builder.Services.AddScoped<iUserService, userService>();
+builder.Services.AddScoped<iTaskService, taskService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

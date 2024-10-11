@@ -1,7 +1,7 @@
 ﻿namespace capacitacion4b_api.DTOs.user
 {
 
-    public class updateUser
+    public class updateUserDto
     {
 
         /* nombresUsuario */

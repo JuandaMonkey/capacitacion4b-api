@@ -9,3 +9,4 @@ C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api.Models\obj\Debug\net8.
 C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api.Models\obj\Debug\net8.0\refint\capacitacion4b-api.Models.dll
 C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api.Models\obj\Debug\net8.0\capacitacion4b-api.Models.pdb
 C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api.Models\obj\Debug\net8.0\ref\capacitacion4b-api.Models.dll
+C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api.Models\obj\Debug\net8.0\capacitacion4b-api.Models.sourcelink.json

@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\UTS-Capacitacion\\capacitacion4b-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44D4BB3A-EF5C-4161-9BBC-2DED04106C8D}|capacitacion4b-api.Data\\capacitacion4b-api.Data.csproj|c:\\uts-capacitacion\\capacitacion4b-api\\capacitacion4b-api.data\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D4BB3A-EF5C-4161-9BBC-2DED04106C8D}|capacitacion4b-api.Data\\capacitacion4b-api.Data.csproj|solutionrelative:capacitacion4b-api.data\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44D4BB3A-EF5C-4161-9BBC-2DED04106C8D}|capacitacion4b-api.Data\\capacitacion4b-api.Data.csproj|c:\\uts-capacitacion\\capacitacion4b-api\\capacitacion4b-api.data\\postgresqlconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44D4BB3A-EF5C-4161-9BBC-2DED04106C8D}|capacitacion4b-api.Data\\capacitacion4b-api.Data.csproj|solutionrelative:capacitacion4b-api.data\\postgresqlconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B7C1798-B3A9-4F61-8B1D-A1A2D893C5FC}|capacitacion4b-api\\capacitacion4b-api.csproj|c:\\uts-capacitacion\\capacitacion4b-api\\capacitacion4b-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B7C1798-B3A9-4F61-8B1D-A1A2D893C5FC}|capacitacion4b-api\\capacitacion4b-api.csproj|solutionrelative:capacitacion4b-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{44D4BB3A-EF5C-4161-9BBC-2DED04106C8D}|capacitacion4b-api.Data\\capacitacion4b-api.Data.csproj|c:\\uts-capacitacion\\capacitacion4b-api\\capacitacion4b-api.data\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D4BB3A-EF5C-4161-9BBC-2DED04106C8D}|capacitacion4b-api.Data\\capacitacion4b-api.Data.csproj|solutionrelative:capacitacion4b-api.data\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D4BB3A-EF5C-4161-9BBC-2DED04106C8D}|capacitacion4b-api.Data\\capacitacion4b-api.Data.csproj|c:\\uts-capacitacion\\capacitacion4b-api\\capacitacion4b-api.data\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D4BB3A-EF5C-4161-9BBC-2DED04106C8D}|capacitacion4b-api.Data\\capacitacion4b-api.Data.csproj|solutionrelative:capacitacion4b-api.data\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B7C1798-B3A9-4F61-8B1D-A1A2D893C5FC}|capacitacion4b-api\\capacitacion4b-api.csproj|c:\\uts-capacitacion\\capacitacion4b-api\\capacitacion4b-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B7C1798-B3A9-4F61-8B1D-A1A2D893C5FC}|capacitacion4b-api\\capacitacion4b-api.csproj|solutionrelative:capacitacion4b-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F2CE18-954B-4826-A63F-BB259853AE4E}|capacitacion4b-api.Models\\capacitacion4b-api.Models.csproj|c:\\uts-capacitacion\\capacitacion4b-api\\capacitacion4b-api.models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F2CE18-954B-4826-A63F-BB259853AE4E}|capacitacion4b-api.Models\\capacitacion4b-api.Models.csproj|solutionrelative:capacitacion4b-api.models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD85D09E-6F36-4E64-A49C-4676D43E4AEF}|capacitacion4b-api.DTOs\\capacitacion4b-api.DTOs.csproj|c:\\uts-capacitacion\\capacitacion4b-api\\capacitacion4b-api.dtos\\task\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD85D09E-6F36-4E64-A49C-4676D43E4AEF}|capacitacion4b-api.DTOs\\capacitacion4b-api.DTOs.csproj|solutionrelative:capacitacion4b-api.dtos\\task\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +43,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "postgresqlConection.cs",
-              "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Data\\postgresqlConection.cs",
-              "RelativeDocumentMoniker": "capacitacion4b-api.Data\\postgresqlConection.cs",
-              "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Data\\postgresqlConection.cs",
-              "RelativeToolTip": "capacitacion4b-api.Data\\postgresqlConection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "userService.cs",
+              "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Data\\services\\userService.cs",
+              "RelativeDocumentMoniker": "capacitacion4b-api.Data\\services\\userService.cs",
+              "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Data\\services\\userService.cs",
+              "RelativeToolTip": "capacitacion4b-api.Data\\services\\userService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T20:32:34.11Z",
+              "WhenOpened": "2024-10-11T15:00:40.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "capacitacion4b-api\\appsettings.Development.json",
-              "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api\\appsettings.Development.json",
-              "RelativeToolTip": "capacitacion4b-api\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-09T20:29:54.996Z",
+              "Title": "postgresqlConection.cs",
+              "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Data\\postgresqlConection.cs",
+              "RelativeDocumentMoniker": "capacitacion4b-api.Data\\postgresqlConection.cs",
+              "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Data\\postgresqlConection.cs",
+              "RelativeToolTip": "capacitacion4b-api.Data\\postgresqlConection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:00:31.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api\\Program.cs",
               "RelativeDocumentMoniker": "capacitacion4b-api\\Program.cs",
               "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api\\Program.cs",
               "RelativeToolTip": "capacitacion4b-api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T20:27:55.341Z",
+              "WhenOpened": "2024-10-11T14:59:53.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "iTaskService.cs",
+              "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Data\\interfaces\\iTaskService.cs",
+              "RelativeDocumentMoniker": "capacitacion4b-api.Data\\interfaces\\iTaskService.cs",
+              "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Data\\interfaces\\iTaskService.cs",
+              "RelativeToolTip": "capacitacion4b-api.Data\\interfaces\\iTaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T14:48:09.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "taskService.cs",
+              "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Data\\services\\taskService.cs",
+              "RelativeDocumentMoniker": "capacitacion4b-api.Data\\services\\taskService.cs",
+              "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Data\\services\\taskService.cs",
+              "RelativeToolTip": "capacitacion4b-api.Data\\services\\taskService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T14:45:57.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "createTaskDto.cs",
+              "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.DTOs\\task\\createTaskDto.cs",
+              "RelativeDocumentMoniker": "capacitacion4b-api.DTOs\\task\\createTaskDto.cs",
+              "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.DTOs\\task\\createTaskDto.cs",
+              "RelativeToolTip": "capacitacion4b-api.DTOs\\task\\createTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T14:35:57.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "taskModel.cs",
+              "DocumentMoniker": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Models\\taskModel.cs",
+              "RelativeDocumentMoniker": "capacitacion4b-api.Models\\taskModel.cs",
+              "ToolTip": "C:\\UTS-Capacitacion\\capacitacion4b-api\\capacitacion4b-api.Models\\taskModel.cs",
+              "RelativeToolTip": "capacitacion4b-api.Models\\taskModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T14:32:42.348Z",
               "EditorCaption": ""
             }
           ]
