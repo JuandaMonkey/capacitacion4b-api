@@ -4,6 +4,8 @@
     public class updateUserDto
     {
 
+        /* idUsuario */
+        public int idUsuario { get; set; }
         /* nombresUsuario */
         public string? nombres { get; set; }
         /* usuarioUsuario */

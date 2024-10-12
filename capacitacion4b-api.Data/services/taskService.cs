@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace capacitacion4b_api.Data.services
 {
+    /*
     public class taskService : iTaskService
     {
 
@@ -35,9 +36,11 @@ namespace capacitacion4b_api.Data.services
             {
 
                 /* abre conexión */
+    /*
                 await database.OpenAsync();
 
                 /* ejecuta el query */
+    /*
                 taskModel? user = await database.QueryFirstOrDefaultAsync<taskModel>(sqlQuery, new
                 {
 
@@ -48,6 +51,7 @@ namespace capacitacion4b_api.Data.services
                 });
 
                 /* cierra conexión*/
+    /*
                 await database.CloseAsync();
 
                 return user;
@@ -59,6 +63,8 @@ namespace capacitacion4b_api.Data.services
 
         }
         #endregion
+    
 
     }
+    */
 }

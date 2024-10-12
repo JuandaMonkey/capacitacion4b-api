@@ -17,10 +17,10 @@ namespace capacitacion4b_api.Data.interfaces
         public Task<userModel> create(createUserDto createUserDto);
 
         /* actualizar un usuario */
-        public Task<userModel> update(createUserDto createUserDto);
+        public Task<userModel> update(updateUserDto updateUserDto);
 
         /* eliminar un usuario */
-        public Task<userModel> remove(createUserDto createUserDto);
+        public Task<userModel> remove(removeUserDto removeUserDto);
 
     }
 

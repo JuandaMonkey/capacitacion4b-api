@@ -43,6 +43,26 @@ namespace capacitacion4b_api.Controllers
 
         }
 
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] updateUserDto updateUserDto)
+        {
+
+            /* actualizamos */
+            userModel? user = await _userService.update(updateUserDto);
+
+            return Ok(user);
+
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> remove(int idUsuario)
+        {
+
+            userModel? user = await _userService.remove(removeUserDto);
+            return Ok(user);
+
+        }
+
     }
 
 }

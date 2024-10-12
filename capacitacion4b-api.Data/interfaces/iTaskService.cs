@@ -14,7 +14,6 @@ namespace capacitacion4b_api.Data.interfaces
 
         /* crear tarea */
         public Task<taskModel?> Create(createTaskDto createTaskDto);
-        /* */
         /*  */
         public Task<taskModel> Update(taskModel updateTaskDto);
 

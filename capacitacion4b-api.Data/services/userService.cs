@@ -6,6 +6,7 @@ using Npgsql;
 
 namespace capacitacion4b_api.Data.services
 {
+
     public class userService : iUserService
     {
 
@@ -13,44 +14,6 @@ namespace capacitacion4b_api.Data.services
         public userService(postgresqlConection postgresqlConection) => _postgresqlConection = postgresqlConection;
 
         private NpgsqlConnection GetConnection() => new NpgsqlConnection(_postgresqlConection._connection);
-
-        public async Task<userModel> create(createUserDto createUserDto)
-        {
-
-            string sqlQuery = "select * from f_userCreate (" +
-                "p_nombresUsuario := @nombres," +
-                "p_usuarioUsuario := @usuario," +
-                "p_contrasenaUsuario := @contrasena);";
-
-            using NpgsqlConnection database = GetConnection();
-
-            try
-            {
-
-                /* abre conexión */
-                await database.OpenAsync();
-
-                /* ejecuta el query */
-                userModel? user = await database.QueryFirstOrDefaultAsync<userModel>(sqlQuery, new
-                {
-
-                    nombres = createUserDto.nombres,
-                    usuario = createUserDto.usuario,
-                    contrasena = createUserDto.contrasena
-
-                });
-
-                /* cierra conexión*/
-                await database.CloseAsync();
-
-                return user;
-            }
-            catch (Exception e)
-            {
-                return null;
-            }
-
-        }
 
         public async Task<IEnumerable<userModel>> findAll()
         {
@@ -105,16 +68,112 @@ namespace capacitacion4b_api.Data.services
             }
         }
 
-        public async Task<userModel> update(createUserDto createUserDto)
+        public async Task<userModel> create(createUserDto createUserDto)
         {
 
-            throw new NotImplementedException();
+            string sqlQuery = "select * from f_createUser (" +
+                "p_nombresUsuario := @nombres," +
+                "p_usuarioUsuario := @usuario," +
+                "p_contrasenaUsuario := @contrasena);";
+
+            using NpgsqlConnection database = GetConnection();
+
+            try
+            {
+
+                /* abre conexión */
+                await database.OpenAsync();
+
+                /* ejecuta el query */
+                userModel? user = await database.QueryFirstOrDefaultAsync<userModel>(sqlQuery, new
+                {
+
+                    nombres = createUserDto.nombres,
+                    usuario = createUserDto.usuario,
+                    contrasena = createUserDto.contrasena
+
+                });
+
+                /* cierra conexión */
+                await database.CloseAsync();
+
+                return user;
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
 
         }
 
-        public Task<userModel> remove(createUserDto createUserDto)
+        public async Task<userModel> update(updateUserDto updateUserDto)
         {
-            throw new NotImplementedException();
+
+            string sqlQuery = $"select * from f_updateUser (" +
+                "p_idUsuario := @idUsuario," +
+                "p_nombresUsuario := @nombres," +
+                "p_usuarioUsuario := @usuario," +
+                "p_contrasenaUsuario := @contrasena);";
+
+            using NpgsqlConnection database = GetConnection();
+
+            try
+            {
+
+                /* abre conexión */
+                await database.OpenAsync();
+
+                userModel? user = await database.QueryFirstOrDefaultAsync<userModel>(sqlQuery, new
+                {
+
+                    idUsuario = updateUserDto.idUsuario,
+                    nombres = updateUserDto.nombres,
+                    usuario = updateUserDto.usuario,
+                    contrasena = updateUserDto.contrasena
+
+                });
+
+                /* cierra conexión */
+                await database.CloseAsync();
+
+                return user;
+
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+
+        }
+
+        public async Task<userModel> remove(removeUserDto removeUserDto)
+        {
+            string sqlQuery = "select * from function f_removeUser (p_idUsuario = @idUsuario;)";
+            using NpgsqlConnection database = GetConnection();
+
+            try
+            {
+
+                /* abre conexión */
+                await database.OpenAsync();
+
+                /* ejecuta el query */
+                userModel? user = await database.QueryFirstOrDefaultAsync<userModel>(sqlQuery, new 
+                { 
+                    
+                    idUsuario = removeUserDto.idUsuario
+
+                });
+
+                /* cierra conexión*/
+                await database.CloseAsync();
+
+                return user;
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
         }
     }
 }

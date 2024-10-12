@@ -15,7 +15,7 @@ postgresqlConection postgresqlConection = new (Environment.GetEnvironmentVariabl
 builder.Services.AddSingleton(postgresqlConection);
 
 builder.Services.AddScoped<iUserService, userService>();
-builder.Services.AddScoped<iTaskService, taskService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
