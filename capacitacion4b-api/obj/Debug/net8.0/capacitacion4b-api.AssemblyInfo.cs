@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("capacitacion4b-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e4499ba7e3100e04628001c0f1d8da9e0cffc51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33921bf1fd45ee5a34525a5814e7c91bc9cb9483")]
 [assembly: System.Reflection.AssemblyProductAttribute("capacitacion4b-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("capacitacion4b-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

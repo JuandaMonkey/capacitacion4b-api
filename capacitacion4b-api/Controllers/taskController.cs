@@ -1,4 +1,5 @@
 ﻿using capacitacion4b_api.Data.interfaces;
+using capacitacion4b_api.Data.services;
 using capacitacion4b_api.DTOs.task;
 using capacitacion4b_api.DTOs.user;
 using capacitacion4b_api.Models;
@@ -16,6 +17,7 @@ namespace capacitacion4b_api.Controllers
         public taskController(iTaskService taskService) => _taskService = taskService;
 
         [HttpGet]
+        /* obtiene todas las tareas */
         public async Task<IActionResult> FindAll()
         {
 
@@ -24,7 +26,20 @@ namespace capacitacion4b_api.Controllers
 
         }
 
+        /*
+        [HttpGet("{idTarea}")]
+        /* obtiene la tarea seleccionada 
+        public async Task<IActionResult> FindOne(int idTarea)
+        {
+
+            var task = await _taskService.FindOne(idTarea);
+            return Ok(task);
+
+        }
+        */
+
         [HttpPost]
+        /* crea una nueva tarea */
         public async Task<IActionResult> Create([FromBody] createTaskDto createTaskDto)
         {
 
@@ -34,6 +49,7 @@ namespace capacitacion4b_api.Controllers
         }
 
         [HttpPut("{idTarea}")]
+        /* actualiza la tarea indicada */
         public async Task<IActionResult> Update(int idTarea, [FromBody] updateTaskDto updateTaskDto)
         {
 
@@ -43,6 +59,7 @@ namespace capacitacion4b_api.Controllers
         }
 
         [HttpDelete("{idTarea}")]
+        /* elimina la tarea indicada */
         public async Task<IActionResult> Remove(int idTarea)
         {
 
@@ -52,6 +69,7 @@ namespace capacitacion4b_api.Controllers
         }
 
         [HttpGet("{idTarea}")]
+        /* cambia el estado de la tarea indicada */
         public async Task<IActionResult> ToggleStatus(int idTarea)
         {
 
