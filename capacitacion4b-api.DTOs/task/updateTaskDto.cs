@@ -3,7 +3,7 @@
 namespace capacitacion4b_api.DTOs.task
 {
 
-    internal class updateTaskDto
+    public class updateTaskDto
     {
 
         public string? tarea { get; set; }

@@ -15,6 +15,8 @@ namespace capacitacion4b_api.Data.services
 
         private NpgsqlConnection GetConnection() => new NpgsqlConnection(_postgresqlConection._connection);
 
+        #region userFindAll
+
         public async Task<IEnumerable<userModel>> findAll()
         {
 
@@ -42,6 +44,8 @@ namespace capacitacion4b_api.Data.services
             }
 
         }
+
+        #endregion
 
         public async Task<userModel> findOne(int idUsuario)
         {
@@ -146,9 +150,9 @@ namespace capacitacion4b_api.Data.services
 
         }
 
-        public async Task<userModel> remove(removeUserDto removeUserDto)
+        public async Task<userModel> remove(int idUsuario)
         {
-            string sqlQuery = "select * from function f_removeUser (p_idUsuario = @idUsuario;)";
+            string sqlQuery = "select * from function f_removeUser (p_idUsuario := @idUsuario;)";
             using NpgsqlConnection database = GetConnection();
 
             try
@@ -158,17 +162,12 @@ namespace capacitacion4b_api.Data.services
                 await database.OpenAsync();
 
                 /* ejecuta el query */
-                userModel? user = await database.QueryFirstOrDefaultAsync<userModel>(sqlQuery, new 
-                { 
-                    
-                    idUsuario = removeUserDto.idUsuario
-
-                });
+                userModel? user = await database.QueryFirstOrDefaultAsync<userModel>(sqlQuery, new { idUsuario });
 
                 /* cierra conexión*/
                 await database.CloseAsync();
 
-                return user;
+                return null;
             }
             catch (Exception e)
             {

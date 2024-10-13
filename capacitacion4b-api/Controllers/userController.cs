@@ -54,12 +54,12 @@ namespace capacitacion4b_api.Controllers
 
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> remove(int idUsuario)
+        [HttpDelete("{idUsuario}")]
+        public async Task<IActionResult> Remove(int idUsuario)
         {
 
-            userModel? user = await _userService.remove(removeUserDto);
-            return Ok(user);
+            userModel? users = await _userService.remove(idUsuario);
+            return Ok(users);
 
         }
 

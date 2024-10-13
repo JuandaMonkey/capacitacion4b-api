@@ -24,7 +24,6 @@ C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\bin\Debug\net8.0\capac
 C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\bin\Debug\net8.0\capacitacion4b-api.Data.pdb
 C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\bin\Debug\net8.0\capacitacion4b-api.DTOs.pdb
 C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\bin\Debug\net8.0\capacitacion4b-api.Models.pdb
-C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\obj\Debug\net8.0\capacitacion4b-api.MvcApplicationPartsAssemblyInfo.cs
 C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\obj\Debug\net8.0\capacitacion4b-api.sourcelink.json
 C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\obj\Debug\net8.0\staticwebassets.build.json
 C:\UTS-Capacitacion\capacitacion4b-api\capacitacion4b-api\obj\Debug\net8.0\staticwebassets.development.json
